@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "solc": "^0.8.19"
+  },
+  "scripts": {
+    "compile": "yarn solcjs --bin --abi SimpleStorage.sol"
+  }
+}
